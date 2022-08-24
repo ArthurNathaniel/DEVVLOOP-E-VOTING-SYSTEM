@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(246, 227, 227);
+}
+
+header{
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgb(124, 123, 123);
+}
+
+header img{
+    width: 150px;
+    margin-left: 80px;  
+}
+
+.hero img{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.hero h1{
+    margin-left: 150px;
+    width: 600px;
+}
+
+.hero p{
+    margin-left: 150px;
+    width: 350px;
+    color: #666;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;  
+}
+
+.two{
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px #666;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.two img{
+    width: 100%;
+    height: 200px;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 2px 2px 2px #666;
+}
+
+.two h2{
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 5px 10px;
+    background-color:rgb(109, 27, 164);
+    border-radius: 3px;
+    border: none;
+}
+
+button a{
+    color: #fff;
+    font-weight: 900;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px #000;
+    margin-top: 100px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+}
+footer a, p ,ul li{
+    color: #666;
+}
+.home{
+    width: 500px;
+    margin-left: 8rem;
+}
+.home img{
+    width: 150px;
+    
+}
+.team {
+    width: 500px;
+}
+.team h2{
+    color:rgb(109, 27, 164) ;
+    margin-bottom: 50px;
+}
+.team span{
+    font-weight: 700;
+}
+.social h2{
+    color: rgb(109, 27, 164);
+    margin-bottom: 50px;
+}
+.heading h1{
+    text-align: center;
+    color: rgb(109, 27, 164);
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+@media (max-width:998px){
+    .hero img{
+        
+        width: 80%;
+        
+    }
+    .hero h1{
+        margin-top: 20px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.hero p{
+        text-align: left; 
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+    
+    .footer{
+        /* grid-template-columns: repeat(3,1fr);  */
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .team{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .social{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
